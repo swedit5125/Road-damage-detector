@@ -2,7 +2,7 @@ import numpy as np
 from PIL import Image
 from ultralytics import YOLO
 def load_model():
-    return YOLO(r"C:\\Users\\Subham Senapati\\Python_Chai\\runs\\detect\\train9\\weights\\best.pt")
+    return YOLO("best.pt")
 
 model = load_model()
 
